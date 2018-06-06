@@ -20,6 +20,7 @@ import { ClientService } from './services/client.service';
 // Angular Material
 import { AngularMaterialModule } from './material/angular-material.module';
 import { RoutingModule } from './routes/routing.module';
+import { ProjectComponent } from './components/projects/project/project.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { RoutingModule } from './routes/routing.module';
     LayoutComponent,
     MainContainerComponent,
     ProjectsComponent,
-    ProjectListComponent
+    ProjectListComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

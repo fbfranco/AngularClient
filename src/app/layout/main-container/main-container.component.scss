@@ -50,7 +50,7 @@ $color-dark: rgb(34, 45, 49);
   position: absolute;
   top: 50px;
   left: 0;
-  height: calc(100vh - 50px);
+  // height: calc(100vh - 50px);
   width: 100%;
   
   
@@ -74,11 +74,11 @@ $color-dark: rgb(34, 45, 49);
   }
 
   & .main-container{
-    min-height: calc(100vh - 50px);
+    // min-height: calc(100vh - 50px);
     padding: 1em 1em 0 1em;
 
     & .content-router-outlet {
-      min-height: calc(100vh - 80px - 2em);
+      // min-height: calc(100vh - 80px - 2em);
       height: 100%;
     }
     & .footer {

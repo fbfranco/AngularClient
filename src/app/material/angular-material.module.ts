@@ -14,7 +14,11 @@ import {
   MatSelectModule,
   MatInputModule,
   MatListModule,
-  MatCardModule
+  MatCardModule,
+  MatNativeDateModule,
+  MatDatepickerModule,
+  MatCheckboxModule,
+  MatTableModule
  } from '@angular/material';
 
 @NgModule({
@@ -30,7 +34,11 @@ import {
     MatSelectModule,
     MatInputModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatNativeDateModule,
+    MatDatepickerModule,
+    MatCheckboxModule,
+    MatTableModule
   ],
   exports: [
     CommonModule,
@@ -44,7 +52,11 @@ import {
     MatSelectModule,
     MatInputModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatNativeDateModule,
+    MatDatepickerModule,
+    MatCheckboxModule,
+    MatTableModule
   ]
 })
 export class AngularMaterialModule { }
